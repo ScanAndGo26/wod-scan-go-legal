@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · WOD Scan &amp; Go</title>
+<style>
+  :root{color-scheme:light dark;--fg:#1c1b22;--bg:#fff;--muted:#5d5a6b;--accent:#6c5dd3;--line:#e4e2ee}
+  @media (prefers-color-scheme:dark){:root{--fg:#ecebf3;--bg:#14131a;--muted:#a6a3b6;--accent:#9d8cff;--line:#2b2938}}
+  body{font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--fg);background:var(--bg);margin:0}
+  main{max-width:760px;margin:0 auto;padding:32px 20px 80px}
+  h1{font-size:2rem;margin:.2em 0}
+  h2{font-size:1.25rem;margin-top:2em;padding-top:.6em;border-top:1px solid var(--line)}
+  a{color:var(--accent)} .muted{color:var(--muted)}
+  nav a{margin-right:14px;font-weight:600}
+  table{border-collapse:collapse;width:100%;font-size:.93rem} td,th{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:rgba(108,93,211,.1)}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#es">Español</a><a href="#en">English</a></nav>
+
+<section id="es">
+<h1>Política de privacidad</h1>
+<p class="muted">WOD Scan &amp; Go · Última actualización: 14 de octubre de 2026</p>
+<p>Esta política explica qué datos trata la aplicación <strong>WOD Scan &amp; Go</strong> (iPhone, Apple Watch y Garmin), para qué los usa y qué derechos tienes. Aplica a las tres versiones de la app.</p>
+
+<h2>1. Responsable y contacto</h2>
+<p>El responsable del tratamiento es el equipo de WOD Scan &amp; Go. Para cualquier consulta sobre privacidad o para ejercer tus derechos escribe a <a href="mailto:scanandgowod@gmail.com">scanandgowod@gmail.com</a>.</p>
+
+<h2>2. Datos que tratamos</h2>
+<table>
+<tr><th>Datos</th><th>Detalle</th></tr>
+<tr><td>Cuenta</td><td>Email, nombre para mostrar, nombre de usuario (opcional) y contraseña. La contraseña se guarda cifrada con un hash (BCrypt); nunca la vemos ni la guardamos en claro.</td></tr>
+<tr><td>Perfil (opcional)</td><td>Sexo, edad, altura, peso corporal y objetivo de peso, preferencia de escala (RX/Scaled/Principiante) y foto de perfil. Solo si decides indicarlos.</td></tr>
+<tr><td>Entrenos y métricas</td><td>Los entrenos que creas o escaneas, las sesiones que realizas y sus métricas: duración, series, repeticiones, calorías y frecuencia cardíaca (media, máxima y muestras) registradas por tu Apple Watch o Garmin.</td></tr>
+<tr><td>Fotos de pizarras</td><td>Las imágenes que escaneas o eliges de tu galería para extraer un entreno, y las imágenes que adjuntas a publicaciones.</td></tr>
+<tr><td>Contenido social</td><td>Publicaciones, comentarios, “me gusta”, seguidores/seguidos y mensajes de chat.</td></tr>
+<tr><td>Notificaciones push</td><td>Un identificador de dispositivo (token de Apple Push) y tus preferencias de notificación.</td></tr>
+<tr><td>Datos técnicos</td><td>Registros básicos del servidor (fecha, ruta y errores) necesarios para el funcionamiento y la seguridad.</td></tr>
+</table>
+<p>No usamos publicidad, no usamos herramientas de analítica o seguimiento de terceros y <strong>no vendemos tus datos</strong>.</p>
+
+<h2>3. Para qué los usamos y base legal</h2>
+<ul>
+<li><strong>Prestar el servicio</strong> (crear tu cuenta, guardar tus entrenos y métricas, mostrar tu historial, funciones sociales y chat): ejecución del contrato.</li>
+<li><strong>Escanear pizarras con IA</strong>: la imagen se envía a un proveedor de IA para extraer el texto del entreno: ejecución del contrato, a petición tuya cuando pulsas escanear.</li>
+<li><strong>Enviar emails</strong> de verificación de cuenta y de restablecimiento de contraseña: ejecución del contrato.</li>
+<li><strong>Notificaciones push</strong> (mensajes, seguidores, “me gusta”, comentarios): tu consentimiento; puedes desactivarlas en Ajustes de la app o del sistema.</li>
+<li><strong>Seguridad y prevención de abuso</strong>: interés legítimo.</li>
+<li><strong>Datos de salud</strong> (frecuencia cardíaca, calorías): solo los recogen tu reloj durante un entreno que tú inicias y se guardan en tu cuenta para mostrártelos. Los tratamos con tu consentimiento y no los usamos para ningún otro fin.</li>
+</ul>
+
+<h2>4. Apple Watch, Apple Health y Garmin</h2>
+<ul>
+<li><strong>Apple Watch:</strong> la app usa HealthKit para registrar la sesión de entrenamiento, el pulso y las calorías. Estos datos se usan solo para tu entreno y para las métricas que ves en tu cuenta. No los compartimos con terceros ni los usamos para publicidad.</li>
+<li><strong>Garmin:</strong> la app del reloj se comunica directamente con nuestros servidores. Guarda en el reloj la sesión y los entrenos para uso sin conexión, y registra la actividad en el historial del propio reloj. No accedemos a tu cuenta de Garmin Connect ni a otros datos de Garmin.</li>
+<li><strong>Vinculación:</strong> el código de vinculación que generas en el móvil dura 5 minutos, solo sirve una vez y se guarda únicamente como hash.</li>
+</ul>
+
+<h2>5. Con quién compartimos datos</h2>
+<p>Solo con proveedores que nos prestan infraestructura y que tratan los datos por nuestra cuenta:</p>
+<ul>
+<li>Alojamiento del servidor y base de datos (Render y el proveedor de base de datos PostgreSQL contratado).</li>
+<li>Almacenamiento de imágenes (Cloudflare R2).</li>
+<li>Análisis de imágenes con IA (Google, API de Gemini): recibe la imagen de la pizarra que escaneas.</li>
+<li>Envío de emails (Brevo u otro proveedor SMTP).</li>
+<li>Notificaciones push (Apple Push Notification service).</li>
+</ul>
+<p>Parte de estos proveedores pueden estar fuera del Espacio Económico Europeo; cuando es así, se apoyan en garantías adecuadas como las cláusulas contractuales tipo. Tu contenido social (publicaciones, comentarios) es visible para otros usuarios según tu configuración de privacidad (cuenta pública o privada). Podemos revelar datos si la ley lo exige.</p>
+
+<h2>6. Conservación</h2>
+<p>Conservamos tus datos mientras tengas la cuenta. Cuando la eliminas, se borran tu perfil, tus entrenos, tu historial y tus publicaciones. Los códigos de vinculación caducan a los 5 minutos y se eliminan automáticamente. Las copias de seguridad y los registros técnicos pueden conservarse un tiempo limitado antes de eliminarse.</p>
+
+<h2>7. Tus derechos</h2>
+<p>Puedes acceder, rectificar, suprimir, limitar u oponerte al tratamiento de tus datos, pedir su portabilidad y retirar tu consentimiento en cualquier momento.</p>
+<ul>
+<li><strong>Eliminar tu cuenta y tus datos:</strong> en la app, <em>Ajustes › Eliminar cuenta</em>.</li>
+<li><strong>Editar tu perfil:</strong> en la app, en tu perfil.</li>
+<li><strong>Cualquier otra solicitud:</strong> escribe a <a href="mailto:scanandgowod@gmail.com">scanandgowod@gmail.com</a>. Respondemos en un máximo de 30 días.</li>
+</ul>
+<p>Si crees que tratamos tus datos de forma indebida, puedes reclamar ante la autoridad de protección de datos de tu país (en España, la Agencia Española de Protección de Datos, <a href="https://www.aepd.es">aepd.es</a>).</p>
+
+<h2>8. Menores</h2>
+<p>La app no está dirigida a menores de 14 años y no recogemos conscientemente datos de ellos. Si crees que un menor nos ha facilitado datos, escríbenos y los eliminaremos.</p>
+
+<h2>9. Seguridad</h2>
+<p>Las comunicaciones se realizan por HTTPS, las contraseñas se almacenan con hash y el acceso a los datos se limita a lo necesario. Ningún sistema es completamente infalible, pero aplicamos medidas razonables para protegerlos.</p>
+
+<h2>10. Cambios</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es relevante, te avisaremos en la app.</p>
+</section>
+
+<hr style="margin:56px 0;border:0;border-top:2px solid var(--line)">
+
+<section id="en" lang="en">
+<h1>Privacy Policy</h1>
+<p class="muted">WOD Scan &amp; Go · Last updated: October 14, 2026</p>
+<p>This policy explains what data the <strong>WOD Scan &amp; Go</strong> app (iPhone, Apple Watch and Garmin) processes, why, and what rights you have. It applies to all three versions of the app.</p>
+
+<h2>1. Controller and contact</h2>
+<p>The data controller is the WOD Scan &amp; Go team. For any privacy question or to exercise your rights, write to <a href="mailto:scanandgowod@gmail.com">scanandgowod@gmail.com</a>.</p>
+
+<h2>2. Data we process</h2>
+<table>
+<tr><th>Data</th><th>Detail</th></tr>
+<tr><td>Account</td><td>Email, display name, username (optional) and password. The password is stored as a hash (BCrypt); we never see or store it in clear text.</td></tr>
+<tr><td>Profile (optional)</td><td>Gender, age, height, body weight and target weight, scale preference (RX/Scaled/Beginner) and profile photo. Only if you choose to provide them.</td></tr>
+<tr><td>Workouts &amp; metrics</td><td>The workouts you create or scan, the sessions you perform and their metrics: duration, sets, reps, calories and heart rate (average, maximum and samples) recorded by your Apple Watch or Garmin.</td></tr>
+<tr><td>Whiteboard photos</td><td>Images you scan or pick from your library to extract a workout, and images you attach to posts.</td></tr>
+<tr><td>Social content</td><td>Posts, comments, likes, followers/following and chat messages.</td></tr>
+<tr><td>Push notifications</td><td>A device identifier (Apple Push token) and your notification preferences.</td></tr>
+<tr><td>Technical data</td><td>Basic server logs (date, route and errors) needed for operation and security.</td></tr>
+</table>
+<p>We show no advertising, use no third-party analytics or tracking tools, and <strong>we do not sell your data</strong>.</p>
+
+<h2>3. Purposes and legal basis</h2>
+<ul>
+<li><strong>Providing the service</strong> (creating your account, saving workouts and metrics, showing your history, social features and chat): performance of a contract.</li>
+<li><strong>AI whiteboard scanning</strong>: the image is sent to an AI provider to extract the workout text: performance of a contract, at your request when you tap scan.</li>
+<li><strong>Emails</strong> for account verification and password reset: performance of a contract.</li>
+<li><strong>Push notifications</strong> (messages, followers, likes, comments): your consent; you can turn them off in the app or system settings.</li>
+<li><strong>Security and abuse prevention</strong>: legitimate interest.</li>
+<li><strong>Health data</strong> (heart rate, calories): collected only by your watch during a workout that you start, and stored in your account to show it to you. We process it with your consent and use it for no other purpose.</li>
+</ul>
+
+<h2>4. Apple Watch, Apple Health and Garmin</h2>
+<ul>
+<li><strong>Apple Watch:</strong> the app uses HealthKit to record the workout session, heart rate and calories. This data is used only for your workout and the metrics you see in your account. We do not share it with third parties or use it for advertising.</li>
+<li><strong>Garmin:</strong> the watch app talks directly to our servers. It stores the session and workouts on the watch for offline use, and records the activity in the watch's own history. We do not access your Garmin Connect account or other Garmin data.</li>
+<li><strong>Pairing:</strong> the pairing code you generate on your phone lasts 5 minutes, works once, and is stored only as a hash.</li>
+</ul>
+
+<h2>5. Who we share data with</h2>
+<p>Only with providers that supply infrastructure and process data on our behalf:</p>
+<ul>
+<li>Server hosting and database (Render and the PostgreSQL database provider we use).</li>
+<li>Image storage (Cloudflare R2).</li>
+<li>AI image analysis (Google, Gemini API): receives the whiteboard image you scan.</li>
+<li>Email delivery (Brevo or another SMTP provider).</li>
+<li>Push notifications (Apple Push Notification service).</li>
+</ul>
+<p>Some of these providers may be located outside the European Economic Area; where so, they rely on appropriate safeguards such as standard contractual clauses. Your social content (posts, comments) is visible to other users according to your privacy setting (public or private account). We may disclose data if required by law.</p>
+
+<h2>6. Retention</h2>
+<p>We keep your data while you have an account. When you delete it, your profile, workouts, history and posts are removed. Pairing codes expire after 5 minutes and are deleted automatically. Backups and technical logs may be kept for a limited time before being deleted.</p>
+
+<h2>7. Your rights</h2>
+<p>You can access, rectify, erase, restrict or object to the processing of your data, request portability and withdraw consent at any time.</p>
+<ul>
+<li><strong>Delete your account and data:</strong> in the app, <em>Settings › Delete account</em>.</li>
+<li><strong>Edit your profile:</strong> in the app, on your profile.</li>
+<li><strong>Any other request:</strong> write to <a href="mailto:scanandgowod@gmail.com">scanandgowod@gmail.com</a>. We reply within 30 days.</li>
+</ul>
+<p>If you believe we process your data improperly, you may lodge a complaint with the data protection authority in your country.</p>
+
+<h2>8. Children</h2>
+<p>The app is not directed to children under 14 and we do not knowingly collect their data. If you believe a child has given us data, contact us and we will delete it.</p>
+
+<h2>9. Security</h2>
+<p>Communications use HTTPS, passwords are stored hashed and access to data is limited to what is necessary. No system is completely infallible, but we apply reasonable measures to protect it.</p>
+
+<h2>10. Changes</h2>
+<p>If we change this policy we will update the date above and, for relevant changes, notify you in the app.</p>
+</section>
+</main>
+</body>
+</html>
